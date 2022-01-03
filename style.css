@@ -140,11 +140,13 @@ h3{
 }
 
 @media screen and (max-width: 400px){
-  .header{
+  header{
     flex-direction: column;
     align-items: flex-start;
-    width: 100%;
     
+  }
+  .nav_links{
+    width: 100%;
   }
   /*.header{
     flex-direction: column;
@@ -152,6 +154,12 @@ h3{
   .nav_links ul{
     width: 100%;
     flex-direction: column;
+  }
+  .nav_links  li{
+    text-align: center;
+  }
+  .nav_links li a{
+    padding: .5rem 1rem;
   }
   .last{
     flex-direction: column;
@@ -166,6 +174,9 @@ h3{
     width: 280px;
     height: 250px;
    
+  }
+  body{
+    width: 100%;
   }
 }
   
